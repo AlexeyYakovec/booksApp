@@ -1,0 +1,27 @@
+{
+   "name": "books-app",
+   "version": "1.0.0",
+   "description": "books-app",
+   "main": "app.js",
+   "type": "module",
+   "scripts": {
+      "start": "live-server",
+      "build": "rollup -c --watch"
+   },
+   "keywords": [
+      "books"
+   ],
+   "author": "Aleksey Yakovets",
+   "license": "ISC",
+   "dependencies": {
+      "@rollup/plugin-node-resolve": "^15.2.3",
+      "axios": "^1.6.8",
+      "on-change": "^5.0.1",
+      "rollup-plugin-import-css": "^3.5.0"
+   },
+   "devDependencies": {
+      "eslint": "^9.0.0",
+      "live-server": "^1.2.2",
+      "rollup": "^4.14.3"
+   }
+}
