@@ -1,4 +1,19 @@
+@import url(../src/components/header/header.css);
+
+:root {
+   --black: #292524;
+   --white: #fafaf9;
+}
+
 body {
-   background-color: #6b7280;
-   overflow-x: hidden;
+   background-color: var(--white);
+   max-width: 1120px;
+   margin: 0 auto;
+   padding: 28px 8px;
+   color: var(--black);
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
 }
