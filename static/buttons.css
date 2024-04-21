@@ -1,0 +1,22 @@
+button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid var(--borderButton);
+   border-radius: 4px;
+   position: relative;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+}
+button:hover {
+   background-color: var(--black);
+   opacity: 0.8;
+}
+
+/* search */
+
+.button__search {
+   width: 60px;
+   height: 100%;
+   background-color: var(--backgroundButton);
+}

@@ -1,12 +1,20 @@
 @import url(../src/components/header/header.css);
+@import url(../src/components/search/search.css);
+@import url(../static/buttons.css);
 
 :root {
-   --black: #292524;
-   --white: #fafaf9;
+   --black: #2f2f2f;
+   --background: #f6f6f6;
+   --orange: #ffcb74;
+
+   --borderSearch: rgb(18%, 18%, 18%, 0.8);
+   --borderButton: rgb(18%, 18%, 18%, 0.4);
+
+   --backgroundButton: rgb(30%, 30%, 30%, 0.2);
 }
 
 body {
-   background-color: var(--white);
+   background-color: var(--background);
    max-width: 1120px;
    margin: 0 auto;
    padding: 28px 8px;
