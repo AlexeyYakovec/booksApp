@@ -9,8 +9,8 @@ export class AbstractView {
 
    render() {
       return;
-	} // render view
-	
+   } // render view
+
    destroy() {
       return;
    } // вызывается при уничтожении view

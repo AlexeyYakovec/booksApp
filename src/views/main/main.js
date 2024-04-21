@@ -23,12 +23,15 @@ export class MainView extends AbstractView {
    constructor(appState) {
       super();
       this.appState = appState;
-      this.appState = onChange(this.appState, this.appStateHook(this));
+      this.appState = onChange(this.appState, this.appStateHook.bind(this));
       this.setTitle("Search books");
    }
 
    appStateHook(path) {
       console.log(path);
+      if (path == "favorites") {
+         console.log(path);
+      }
    }
 
    render() {
