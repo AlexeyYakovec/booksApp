@@ -1,6 +1,7 @@
 @import url(../src/components/header/header.css);
 @import url(../src/components/search/search.css);
 @import url(../src/components/card-list/card-list.css);
+@import url(../src/components/card/card.css);
 
 @import url(../static/buttons.css);
 
