@@ -20,7 +20,7 @@ export class Header extends DivComponents {
 			</a>
 			<a class="menu__item" href="#favorites">
 				<img src="/static/favorites.svg" alt="favorites">
-				Поиск книг
+				Избранное
 				<div class="menu__counter">
 					${this.appState.favorites.length}
 				</div>

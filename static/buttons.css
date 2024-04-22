@@ -8,10 +8,6 @@ button {
    cursor: pointer;
    transition: 0.2s ease-in-out;
 }
-button:hover {
-   background-color: var(--black);
-   opacity: 0.8;
-}
 
 /* search */
 
@@ -19,6 +15,10 @@ button:hover {
    width: 60px;
    height: 100%;
    background-color: var(--backgroundButton);
+}
+.button__search:hover {
+   background-color: var(--black);
+   opacity: 0.8;
 }
 
 /* card */
