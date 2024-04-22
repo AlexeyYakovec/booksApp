@@ -42,17 +42,3 @@
    margin-top: auto;
    display: flex;
 }
-.button__add {
-   width: 36px;
-   height: 32px;
-   border-radius: 6px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background: transparent;
-   border: 1px solid var(--background);
-   cursor: pointer;
-}
-.button__active {
-   background: var(--background);
-}
