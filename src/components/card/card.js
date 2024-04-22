@@ -29,7 +29,7 @@ export class Card extends DivComponents {
 				${this.cardState.author_name ? this.cardState.author_name[0] : "не задано"}
 			</div>
 			<div class="card__footer">
-				<button class="button_add ${existInFavorites ? "button__active" : ""}">
+				<button class="button__add${existInFavorites ? "button__active" : ""}">
 					${
                   existInFavorites
                      ? '<img src="/static/favorites.svg"/>'
